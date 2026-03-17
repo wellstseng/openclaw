@@ -48,3 +48,4 @@ export type { ReplyPayload } from "../auto-reply/types.js";
 export type { WizardPrompter } from "../wizard/prompts.js";
 
 export { emptyPluginConfigSchema } from "../plugins/config-schema.js";
+export { delegateCompactionToRuntime } from "../context-engine/delegate.js";

@@ -59,6 +59,7 @@ export type { OpenClawPluginApi } from "../plugins/types.js";
 export type { PluginRuntime } from "../plugins/runtime/types.js";
 
 export { emptyPluginConfigSchema } from "../plugins/config-schema.js";
+export { delegateCompactionToRuntime } from "../context-engine/delegate.js";
 export { buildOauthProviderAuthResult } from "./provider-auth-result.js";
 export {
   DEFAULT_SECRET_FILE_MAX_BYTES,
